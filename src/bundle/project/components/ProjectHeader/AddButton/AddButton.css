@@ -1,0 +1,25 @@
+.button {
+    border: none;
+    box-shadow: 1px 12px 34px -15px rgba(0, 0, 0, 0.84);
+    position: absolute;
+    font-size: 1.75em;
+    right: 1.25em;
+    bottom: -1.25em;
+    width: 2.5em;
+    height: 2.5em;
+    margin: auto;
+    background: #4a475f;
+    color: white;
+}
+
+.button:hover {
+    background: #4a475f;
+    color: white;
+    box-shadow: 1px 12px 34px -10px rgba(0, 0, 0, 0.84);
+    transform: scale(1.05)
+}
+
+.button:focus {
+    background: #4a475f;
+    color: white;
+}
